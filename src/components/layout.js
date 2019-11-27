@@ -62,7 +62,7 @@ class Layout extends React.Component {
       >
         <header>{header}</header>
         <main style={{ fontFamily: 'Monaco' }}>{children}</main>
-        <footer />
+        <hr />
       </div>
     );
   }

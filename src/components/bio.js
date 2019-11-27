@@ -61,7 +61,8 @@ const Bio = () => {
           href={`https://github.com/${social.github}`}
         >
           <strong>@nghy97</strong>
-        </a>
+        </a>{' '}
+        ehdgur920907@gmail.com
       </p>
     </div>
   );
