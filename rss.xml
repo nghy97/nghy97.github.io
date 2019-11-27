@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[DONGHYUK's dev]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 27 Nov 2019 09:27:32 GMT</lastBuildDate><item><title><![CDATA[Gatsby로 블로그 만들기]]></title><description><![CDATA[비밀~]]></description><link>https://gatsby-starter-blog-demo.netlify.com/how-to-make-a-blog-using-gatsby/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/how-to-make-a-blog-using-gatsby/</guid><pubDate>Thu, 28 Nov 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;비밀~&lt;/h1&gt;</content:encoded></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[DONGHYUK's dev]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 27 Nov 2019 10:00:20 GMT</lastBuildDate><item><title><![CDATA[Gatsby로 블로그 만들기]]></title><description><![CDATA[일단 설치하자 Node.js gatsby-cli 설치 터미널 환경에서 npm install -g gatsby-cli 또는
+yarn global add gatsby-cli gatsby 시작하기 gatsby new [블로그…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/how-to-make-a-blog-using-gatsby/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/how-to-make-a-blog-using-gatsby/</guid><pubDate>Thu, 28 Nov 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;일단 설치하자&lt;/h2&gt;
+&lt;p&gt;Node.js&lt;/p&gt;
+&lt;h2&gt;gatsby-cli 설치&lt;/h2&gt;
+&lt;p&gt;터미널 환경에서&lt;/p&gt;
+&lt;p&gt;npm install -g gatsby-cli 또는
+yarn global add gatsby-cli&lt;/p&gt;
+&lt;h2&gt;gatsby 시작하기&lt;/h2&gt;
+&lt;p&gt;gatsby new [[블로그_이름]] [[원하는 스타터 패키지(테마)]]&lt;/p&gt;
+&lt;p&gt;ex) gatsby new blog &lt;a href=&quot;https://github.com/gatsbyjs/gatsby-starter-blog&quot;&gt;https://github.com/gatsbyjs/gatsby-starter-blog&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;로컬 개발 환경 실행하기&lt;/h2&gt;
+&lt;p&gt;cd [[블로그_이름]] &amp;#x26;&amp;#x26; gatsby develop&lt;/p&gt;
+&lt;p&gt;브라우저에서 &lt;a href=&quot;http://localhost:8000&quot;&gt;http://localhost:8000&lt;/a&gt; 접속&lt;/p&gt;
+&lt;h2&gt;일단 github.io repo를 만들자.&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com&quot;&gt;https://github.com&lt;/a&gt; 접속 및 로그인&lt;/li&gt;
+&lt;li&gt;오른쪽 상단 + 버튼 클릭, New Repository&lt;/li&gt;
+&lt;li&gt;Repository name에 [[사용자_이름]].github.io 입력&lt;/li&gt;
+&lt;li&gt;Public으로 만든다. (Private X)&lt;/li&gt;
+&lt;li&gt;방금 만든 레포의 Settings로 들어간다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Github page로 배포하기&lt;/h2&gt;
+&lt;p&gt;npm install —save-dev gh-pages 또는
+yarn add gh-pages —dev&lt;/p&gt;</content:encoded></item></channel></rss>
