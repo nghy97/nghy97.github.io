@@ -62,13 +62,7 @@ class Layout extends React.Component {
       >
         <header>{header}</header>
         <main style={{ fontFamily: 'MonacoB2' }}>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Written By
-          {` `}
-          <a style={{ color: `black` }} href="https://www.gatsbyjs.org">
-            nghy97
-          </a>
-        </footer>
+        <footer />
       </div>
     )
   }
