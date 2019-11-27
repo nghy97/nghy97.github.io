@@ -62,7 +62,11 @@ class Layout extends React.Component {
       >
         <header>{header}</header>
         <main style={{ fontFamily: 'Monaco' }}>{children}</main>
-        <hr />
+        <footer>
+          <a style={{ color: 'black' }} href="mailto:ehdgur920908@gmail.com">
+            ehdgur920907@gmail.com
+          </a>
+        </footer>
       </div>
     );
   }

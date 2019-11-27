@@ -62,7 +62,6 @@ const Bio = () => {
         >
           <strong>@nghy97</strong>
         </a>{' '}
-        ehdgur920907@gmail.com
       </p>
     </div>
   );
