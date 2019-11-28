@@ -55,3 +55,7 @@ cd [[블로그 이름]] && gatsby develop
 
 본인: master(배포), dev(개발)  
 dev에서 개발하고 master에 merge한 뒤, master에서 `npm run deploy` 명령어를 통해 배포하고 있습니다.
+
+## 사용하기
+
+https://[[사용자 이름]].github.io로 접속
