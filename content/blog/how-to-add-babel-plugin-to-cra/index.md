@@ -7,12 +7,18 @@ description: create-react-app에서 eject하지 않고 플러그인 추가할 �
 ### cra 설치
 
 ```Shell
+npm install -g create-react-app
+```
 
+### 테스트 프로젝트 만들기
+
+```Shell
+create-react-app test && cd test
 ```
 
 ### react-app-rewired, customize-cra 설치
 
-**터미널** 환경에서
+**test** 폴더 안에서
 
 ```Shell
 npm install --save-dev react-app-rewired customize-cra
@@ -22,12 +28,6 @@ npm install --save-dev react-app-rewired customize-cra
 
 ```Shell
 npm install --save-dev @babel/plugin-proposal-optional-chaining
-```
-
-### 사용하기
-
-```Shell
-create-react-app test
 ```
 
 test 디렉토리 안의 package.json에서 해당 부분을 수정한다.
