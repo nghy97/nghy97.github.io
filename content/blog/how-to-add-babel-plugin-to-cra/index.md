@@ -4,13 +4,13 @@ date: '2019-12-10'
 description: create-react-app에서 eject하지 않고 플러그인 추가할 수 있을까?
 ---
 
-### cra 설치
+### CRA 설치
 
 ```Shell
 npm install -g create-react-app
 ```
 
-### 테스트 프로젝트 만들기
+### CRA 프로젝트 만들기
 
 ```Shell
 create-react-app test && cd test
@@ -50,7 +50,8 @@ module.exports = {
 ```JSON
 "scripts": {
   "start": "react-app-rewired start",
-  "build": "react-app-rewired build"
+  "build": "react-app-rewired build",
+  ...
 }
 ```
 
