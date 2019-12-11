@@ -62,7 +62,9 @@ class Layout extends React.Component {
       >
         <header>{header}</header>
         <main style={{ fontFamily: 'Monaco' }}>{children}</main>
-        <footer>
+        <footer style={{marginTop: rhythm(2.5),}}>
+          © {new Date().getFullYear()}, Written by
+          {` | `}
           <a style={{ color: 'black' }} href="mailto:ehdgur920908@gmail.com">
             ehdgur920907@gmail.com
           </a>
